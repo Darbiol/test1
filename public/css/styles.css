@@ -1,0 +1,39 @@
+body {
+    font-family: source-sans-pro, sans-serif;
+    font-size: 15px;
+    background-color: rgb(68, 50, 163);
+    /*padding-top: 60px;*/
+    /*padding-bottom: 40px;*/
+}
+footer{
+    color: #FFFFFF;
+}
+.dropdown-menu {
+    max-height: 400px;
+    overflow: auto;
+    width: 230px;
+}
+
+.list-item {
+    padding-top: 6px;
+    padding-left: 56px;
+}
+
+.no-reports {
+    display: none;
+}
+#mainNav>li>a>i{
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    float: left;
+}
+
+#mainNav>li.current>a{
+    color: #FFF440;
+}
+#mainNav>li.current{
+    background-color: #000000;
+}
