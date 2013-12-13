@@ -37,3 +37,16 @@ footer{
 #mainNav>li.current{
     background-color: #000000;
 }
+
+.btn-warning{
+    background-color: #FFF440;
+    border-color: #FFF440; 
+    color: black;
+}
+
+
+.btn-warning:hover{
+    background-color: #FFE040;
+    border-color:  #FFE040;
+    color: black;
+}
